@@ -120,7 +120,7 @@ ensure_installed ~
   Default: `{}`
 
   List of parsers to install automatically at startup (if not already
-  installed). If set to "all", install all parsers. >lua
+  installed). If set to `"all"`, install all parsers. >lua
     ensure_installed = { "lua", "python", "rust" },
     ensure_installed = "all",
 <
